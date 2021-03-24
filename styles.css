@@ -1,0 +1,172 @@
+body {
+    background-color: #ffe6cc;
+}
+
+/* Home Page */
+
+.wrapperheader {
+    display: grid;
+    grid-template-columns: .8fr 1.4fr .8fr;
+    gap: 10px;
+    grid-template-rows: auto;
+    font-family: 'Cinzel', serif;
+    color: red;   
+}
+
+.navbar {
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+.nav-link {
+    color: red;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.corner {
+    text-align: right;
+    margin-right: 80px;
+    padding: 40px;
+    font-size: 16px;
+}
+
+.wrappermain {
+    display: grid;
+    grid-template-columns: .8fr 1.4fr .8fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin-right: 10px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bio {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: white;
+    text-align: left;
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.intro {
+    padding: 100px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.footer {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
+ }
+
+ .title {
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: red;
+    text-align: right;
+}
+
+.footertitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: red;
+    text-align: right;
+    padding: 10px;
+    font-size: 16px;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aside1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.link {
+    color: red;
+    font-size: 14px;
+}
+ /* Projects Page*/
+
+ .wrapperprojects {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: .6fr 1.4fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projecttitle {
+    color: red;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.description {
+    padding: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-align:left;
+    font-size: 16px;
+    background-color: white;
+    margin-right: 50px;
+}
+
+.projectfooter {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
+ }
+
+ .projectlink {
+    color: red;
+}
+
+h5 {
+    text-align: center;
+}
+
+
