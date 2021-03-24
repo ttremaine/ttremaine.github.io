@@ -117,6 +117,7 @@ h1 {
 .link {
     color: red;
     font-size: 14px;
+    text-decoration: none;
 }
  /* Projects Page*/
 
@@ -163,6 +164,7 @@ h1 {
 
  .projectlink {
     color: red;
+    text-decoration: none;
 }
 
 h5 {
