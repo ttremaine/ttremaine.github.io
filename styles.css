@@ -1,152 +1,182 @@
-body {
-    background-color: #ffe6cc;
-}
-
 /* Home Page */
 
 .wrapperheader {
     display: grid;
-    grid-template-columns: .8fr 1.4fr .8fr;
-    gap: 10px;
+    background-color: #ffe6cc;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     font-family: 'Cinzel', serif;
-    color: red;   
+    color: red; 
 }
 
 .navbar {
-    margin-left: 80px;
     font-size: 16px;
 }
 
 .navbar-brand {
     color: red;
 }
-
+  
 .nav-link {
     color: red;
 }
 
-.header {
+.nav-link:hover {
+    color: black;
+}
+
+header {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 20px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .corner {
-    text-align: right;
-    margin-right: 80px;
-    padding: 40px;
     font-size: 16px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    content-align: right;
 }
 
 .wrappermain {
     display: grid;
-    grid-template-columns: .8fr 1.4fr .8fr;
+    grid-template-columns: .5fr 1fr .5fr;
     grid-auto-rows: minmax(100px, auto);
-    margin-right: 10px;
-    margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 40px;
+}
+
+.title {
+    padding-right: 10px;
+    padding-top: 20px;
+    margin: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    color: red;
+    text-align: right;
+}
+
+#overunder {
+    text-decoration: overline underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    text-underline-offset: 1.2em;
 }
 
 .bio {
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    background-color: white;
+    padding: 50px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 50px;
     text-align: left;
     color: black;
     font-weight: 300;
     font-size: 16px;
-    margin-right: 10px;
 }
 
 .intro {
     padding: 100px;
     margin-top: 5px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    background-color: white;
+}
+footer {
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: 'Montserrat', sans-serif;
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .footer {
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     font-weight: 300;
     font-size: 14px;
     color: black;
-    text-align: left;
+    text-align: center;
     grid-column-start: 2;
-    grid-column-end: 4;
- }
-
- .title {
-    padding-right: 10px;
-    margin-top: 20px;
+    grid column-end: 3;
+    padding: 20px;
     margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 30px;
-    color: red;
-    text-align: right;
+    margin-top: 20px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
 .footertitle {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: red;
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    color: black;
     text-align: right;
-    padding: 10px;
+    padding: 20px;
     font-size: 16px;
-    margin: auto;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .aside1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: left;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.aside2 {
+    background-color: white;
 }
 
 .link {
     color: red;
     font-size: 14px;
 }
- /* Projects Page*/
 
- .wrapperprojects {
+.wrapperprojects {
     display: grid;
     gap: 10px;
-    grid-template-columns: .6fr 1.4fr;
+    grid-template-columns: .5fr 1fr .5fr;
     grid-auto-rows: minmax(100px, auto);
     margin: 40px;
-    margin-top: 40px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
 }
 
 .projecttitle {
     color: red;
     text-align: right;
     padding-right: 10px;
-    font-size: 20px;
     font-weight: 700;
+    padding-top: 20px;
+    margin: 40px;
+    font-size: 40px;
 }
 
 .description {
-    padding: 10px;
     font-weight: normal;
     font-style: normal;
     text-align:left;
     font-size: 16px;
-    background-color: white;
+    padding-left: 50px;
     margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.image2 {
+    width: 600px;
+    height: auto;
+    align-content: center;
 }
 
 .projectfooter {
@@ -161,16 +191,33 @@ h1 {
     grid-column-end: 3;
  }
 
- .projectlink {
+.projectlink {
     color: red;
 }
-
-h5 {
-    text-align: center;
+.projectlink:hover {
+    color: white;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
+.projectaside {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
 
+.button {
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+    border-color: red;
+}
+
+.button:hover {
+    background-color: red;
+}

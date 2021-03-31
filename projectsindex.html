@@ -12,10 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <title>Projects</title>
   </head>
-
   <body>  
-
-    <div class="wrapperheader">
+    <div class="wrapperheader" id="stickyheader">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -25,77 +23,95 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="projectsindex.html">PROJECTS</a>
+                <a class="nav-link" href="projectsindex.html">Projects</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
       <header class="header">
         <h1>Projects</h1>
       </header>
-
       <div class="corner"></div>
     </div>     
     <div class="wrapperprojects">
-      <div class="projecttitle">PacMen Exercise</div>
+      <div class="projecttitle">PacMen</div>
       <div class="description">
+        <img class="image2" src="pacmenscreenshot.png" alt="PacMen">
+        <p></p>
         <p>
             In this exercise we were tasked with creating pacmen by clicking a button and then moving the pacmen on the page when the game started. The pacmen move at a random velocity. When they hit the edge of the screen, they change position and stay within the frame of the webpage.
         </p>
         <p>
-            My next steps in this project are to work on randomizing the colors of the pacmen so that when they are added they are different colors. I would also like to have the pacmen change position when they hit each other, not only when they hit the edge of the screen.
-        </p>
-        <p>
-            <h5><a class="projectlink" target="_blank" href="https://github.com/ttremaine/PacMen">PacMen Exercise on GitHub</a></h5>
-        </p>
-        <p>
-            <h5><a class="projectlink" target="_blank" href="https://ttremaine.github.io/PacMen/pacmen.html">Open PacMen Exercise in Webpage</a></h5>
+            My next step in this project is to have the pacmen change position when they hit each other, not only when they hit the edge of the screen.
         </p>
       </div>
-      <div class="projecttitle">Eye Movement Exercise</div>
+      <div class="projectaside">
+        <button type="button" class="button">
+            <a class="projectlink" target="_blank" href="https://github.com/ttremaine/PacMen">PacMen Exercise on GitHub</a>
+        </button>
+        <p></p>
+        <button type="button" class="button">
+            <a class="projectlink" target="_blank" href="https://ttremaine.github.io/PacMen/pacmen.html">Open PacMen Exercise in New Page</a>
+        </button>
+      </div>
+      <div class="projecttitle">Eye Movement</div>
       <div class="description">
+        <img class="image2" src="eyesscreenshot.png" alt="Eye Movement">
+        <p></p>
         <p>
             This is exercise focused on using mouse events to bind DOM elements to events. In particular we were tasked with using the mouse movement event to update the position of two eye elements on the page so that the eyes follow the mouse position on the screen.
         </p>
         <p>
             I want to work on adding more styles to the page so that the eyes appear as part of an entire face. I would also like to add a background color.
         </p>
-        <p>
-            <h5><a class="projectlink" target="_blank" href="https://github.com/ttremaine/Eye-Movement">Eye Movement Exercise on GitHub</a></h5>
-        </p>
-        <p id="center">
-            <h5><a class="projectlink" target="_blank" href="https://ttremaine.github.io/Eye-Movement/eyes.html">Open Eye Movement Exercise in Webpage</a></h5>
+      </div>
+      <div class="projectaside">
+        <button type="button" class="button">
+            <a class="projectlink" target="_blank" href="https://github.com/ttremaine/Eye-Movement">Eye Movement Exercise on GitHub</a>
+        </button>
+        <p></p>
+        <button type="button" class="button">
+            <a class="projectlink" target="_blank" href="https://ttremaine.github.io/Eye-Movement/eyes.html">Open Eye Movement Exercise in New Page</a>
         </p>
       </div>
-      <div class="projecttitle">Real Time Bus Tracker Exercise</div>
+      <div class="projecttitle">Bus Tracker</div>
       <div class="description">
+        <img class="image2" src="busscreenshot.png" alt="Bus Tracker">
+        <p></p>
         <p>
             This exercise used mapbox to display a map and bus tracker on the page. Using MBTA bus data, I located the bus stops between Harvard and MIT. An animated marker on the map highlights the bus route following those stops.
         </p>
         <p>
             Next, I want to work on updating the map so that specific stops are marked. I would also like to add more routes.
         </p>
-        <p>
-            <h5><a class="projectlink" target="_blank" href="https://github.com/ttremaine/Real-Time-Bus-Tracker">Real Time Bus Tracker Exercise on GitHub</a></h5>
-        </p>
-        <p>
-            <h5><a class="projectlink" target="_blank" href="https://ttremaine.github.io/Real-Time-Bus-Tracker/bustracker.html">Open Real Time Bus Tracker Exercise in Webpage</a></h5>
-        </p>
-      </div>
-      <div class="footertitle">Contact Me</div>
-      <div class="projectfooter">
-          <p>
-              Email me &ensp; taylortremaine@gmail.com &emsp; Check out my &ensp; <a class="link" href="https://github.com/ttremaine">GitHub</a> &emsp; <a class="link" href="https://linkedin.com/in/taylor-tremaine-70b2ab20a">LinkedIn</a>
-          </p>
+      </div>  
+      <div class="projectaside">
+        <button type="button" class="button">
+            <a class="projectlink" target="_blank" href="https://github.com/ttremaine/Real-Time-Bus-Tracker">Real Time Bus Tracker Exercise on GitHub</a>
+        </button>
+        <p></p>
+        <button type="button" class="button">
+            <a class="projectlink" target="_blank" href="https://ttremaine.github.io/Real-Time-Bus-Tracker/bustracker.html">Open Real Time Bus Tracker Exercise in New Page</a>
+        </button>
       </div>
     </div>
+    <!-- Footer -->  
+    <footer>
+      <div class="footertitle"></div>
+      <div class="footer" id="border">
+        <p>
+          <span class="footertitle">Contact Me</span>Email me &ensp; taylortremaine@gmail.com &emsp; Check out my &ensp; <a class="link" href="https://github.com/ttremaine">GitHub</a> &emsp; <a class="link" href="https://linkedin.com/in/taylor-tremaine-70b2ab20a">LinkedIn</a>
+          </p>
+      </div>
+      <div  class="aside3"></div>
+    </footer>
     <!-- Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
+    <!-- My JS -->
+    <script src="portfolio.js"></script>
   </body>
 </html>
